@@ -1,5 +1,6 @@
 # git-to-AWS-sync
 Automatically Deploy from GitHub Using AWS CodeDeploy
+
 AWS CodeDeploy is a new service that makes it easy to deploy application updates to Amazon EC2 instances. CodeDeploy is targeted at customers who manage their EC2 instances directly, instead of those who use an application management service like AWS Elastic Beanstalk or AWS OpsWorks that have their own built-in deployment features. CodeDeploy allows developers and administrators to centrally control and track their application deployments across their different development, testing, and production environments.
 
 For a quick overview of what CodeDeploy can do, watch this introductory video. In this video, we demonstrate automatically triggering a deployment from a source code change in a GitHub repository. GitHub is a popular code management and developer collaboration tool. By connecting GitHub to CodeDeploy, you can set up an end-to-end pipeline to move your code changes from source control to your testing or production environments. The remainder of this post walks through the steps required to set up automatic deployments from GitHub to CodeDeploy.
